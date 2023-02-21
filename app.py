@@ -7,7 +7,7 @@ import numpy as np
 
 st.set_page_config(
     page_title="صادرات مصر",
-    page_icon="/home/rashad/projects/showcase_exports/logos/bar-chart_.png",
+    page_icon=str(Path(__file__).parent / "logos/bar-chart_.png"),
     layout="wide",
     initial_sidebar_state="auto",
     menu_items=None,
@@ -206,7 +206,7 @@ with st.expander("Chapter 4: What do you think ?", expanded=False):
     with open(zip_path, "rb") as fp:
         st.columns(3)[1].download_button(
         # st.sidebar.download_button(
-            label="هل تريد تحميل البيانات ؟",
+            label="يمكنك تحميل البيانات التى أستخدمتها من هنا",
             data=fp,
             file_name="dataset.zip",
             mime="application/zip",
