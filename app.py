@@ -7,7 +7,7 @@ import numpy as np
 
 st.set_page_config(
     page_title="صادرات مصر",
-    page_icon=str(Path(__file__).parent / "logos/bar-chart_.png"),
+    page_icon=str(Path(__file__).parent / "assets/bar-chart_.png"),
     layout="wide",
     initial_sidebar_state="auto",
     menu_items=None,
@@ -67,6 +67,7 @@ st.sidebar.markdown("<h3> ⭐ <b class='sidebar'>Chapt</b>er 3 <b class='sidebar
 # chapter3_num_columns = st.sidebar.select_slider("Number of side-by-side dataframes", options=[1,2,3], value=1)
 chapter3_num_columns = 1
 top_n_items = st.sidebar.select_slider("Show only top N items", options=list(range(1,21))+["All"], value=10)
+enable_surprise = st.sidebar.checkbox("✨ Enable Surprise", value=False, help="Enable this to see a surprise at the end of the story")
 
 
 # Load metadata
@@ -214,3 +215,7 @@ with st.expander("Chapter 4: What do you think ?", expanded=False):
         )
 
     st.balloons()
+
+if enable_surprise:
+    st.snow()
+    st.audio(str(Path(__file__).parent / "assets"  / "surprise.webm"), format="audio/webm")
