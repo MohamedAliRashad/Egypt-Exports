@@ -67,7 +67,7 @@ st.sidebar.markdown("<h3> ⭐ <b class='sidebar'>Chapt</b>er 3 <b class='sidebar
 # chapter3_num_columns = st.sidebar.select_slider("Number of side-by-side dataframes", options=[1,2,3], value=1)
 chapter3_num_columns = 1
 top_n_items = st.sidebar.select_slider("Show only top N items", options=list(range(1,21))+["All"], value=10)
-enable_surprise = st.sidebar.checkbox("✨ Enable Surprise", value=False, help="Enable this to see a surprise at the end of the story")
+enable_surprise = st.sidebar.checkbox("✨ Unlock Surprise", value=False, help="Enable this to see a surprise at the end of the story")
 
 
 # Load metadata
