@@ -1,0 +1,1143 @@
+[
+    {
+        "Country Name":"باراغواي",
+        "Country Code":"PRY",
+        "Export Amount":24.6,
+        "Export Value":"مليون دولار",
+        "Color":"#3998C7"
+    },
+    {
+        "Country Name":"نيوزيلاندا",
+        "Country Code":"NZL",
+        "Export Amount":50.2,
+        "Export Value":"مليون دولار",
+        "Color":"#B74554"
+    },
+    {
+        "Country Name":"الغابون",
+        "Country Code":"GAB",
+        "Export Amount":139.6,
+        "Export Value":"مليون دولار",
+        "Color":"#547269"
+    },
+    {
+        "Country Name":"بوركينا فاسو",
+        "Country Code":"BFA",
+        "Export Amount":124.4,
+        "Export Value":"مليون دولار",
+        "Color":"#22DD1C"
+    },
+    {
+        "Country Name":"اليونان",
+        "Country Code":"GRC",
+        "Export Amount":4.4,
+        "Export Value":"مليار دولار",
+        "Color":"#AE58DF"
+    },
+    {
+        "Country Name":"لبنان",
+        "Country Code":"LBN",
+        "Export Amount":5.6,
+        "Export Value":"مليار دولار",
+        "Color":"#FE8AAB"
+    },
+    {
+        "Country Name":"اليمن",
+        "Country Code":"YEM",
+        "Export Amount":2.8,
+        "Export Value":"مليار دولار",
+        "Color":"#22EFBE"
+    },
+    {
+        "Country Name":"البرازيل",
+        "Country Code":"BRA",
+        "Export Amount":2.0,
+        "Export Value":"مليار دولار",
+        "Color":"#C78F56"
+    },
+    {
+        "Country Name":"جيبوتي",
+        "Country Code":"DJI",
+        "Export Amount":409.3,
+        "Export Value":"مليون دولار",
+        "Color":"#1CD0DA"
+    },
+    {
+        "Country Name":"أستراليا",
+        "Country Code":"AUS",
+        "Export Amount":636.7,
+        "Export Value":"مليون دولار",
+        "Color":"#6C8465"
+    },
+    {
+        "Country Name":"البوسنة والهرسك",
+        "Country Code":"BIH",
+        "Export Amount":19.3,
+        "Export Value":"مليون دولار",
+        "Color":"#2306C0"
+    },
+    {
+        "Country Name":"المكسيك",
+        "Country Code":"MEX",
+        "Export Amount":249.0,
+        "Export Value":"مليون دولار",
+        "Color":"#3A8E15"
+    },
+    {
+        "Country Name":"أرمينيا",
+        "Country Code":"ARM",
+        "Export Amount":19.9,
+        "Export Value":"مليون دولار",
+        "Color":"#503445"
+    },
+    {
+        "Country Name":"بروناي",
+        "Country Code":"BRN",
+        "Export Amount":17.8,
+        "Export Value":"مليون دولار",
+        "Color":"#A1BC3B"
+    },
+    {
+        "Country Name":"موزمبيق",
+        "Country Code":"MOZ",
+        "Export Amount":97.5,
+        "Export Value":"مليون دولار",
+        "Color":"#42F867"
+    },
+    {
+        "Country Name":"ناميبيا",
+        "Country Code":"NAM",
+        "Export Amount":9.7,
+        "Export Value":"مليون دولار",
+        "Color":"#BA26EB"
+    },
+    {
+        "Country Name":"هنغاريا",
+        "Country Code":"HUN",
+        "Export Amount":739.8,
+        "Export Value":"مليون دولار",
+        "Color":"#B61E3D"
+    },
+    {
+        "Country Name":"سوريا",
+        "Country Code":"SYR",
+        "Export Amount":3.1,
+        "Export Value":"مليار دولار",
+        "Color":"#9DF82B"
+    },
+    {
+        "Country Name":"كوستا ريكا",
+        "Country Code":"CRI",
+        "Export Amount":28.6,
+        "Export Value":"مليون دولار",
+        "Color":"#B3F9CB"
+    },
+    {
+        "Country Name":"إسبانيا",
+        "Country Code":"ESP",
+        "Export Amount":8.5,
+        "Export Value":"مليار دولار",
+        "Color":"#04B82E"
+    },
+    {
+        "Country Name":"صربيا",
+        "Country Code":"SRB",
+        "Export Amount":33.4,
+        "Export Value":"مليون دولار",
+        "Color":"#C764B8"
+    },
+    {
+        "Country Name":"الكاميرون",
+        "Country Code":"CMR",
+        "Export Amount":377.0,
+        "Export Value":"مليون دولار",
+        "Color":"#B73E30"
+    },
+    {
+        "Country Name":"مولدوفا",
+        "Country Code":"MDA",
+        "Export Amount":10.9,
+        "Export Value":"مليون دولار",
+        "Color":"#07CD6B"
+    },
+    {
+        "Country Name":"فنزويلا",
+        "Country Code":"VEN",
+        "Export Amount":31.9,
+        "Export Value":"مليون دولار",
+        "Color":"#A0163E"
+    },
+    {
+        "Country Name":"بنغلاديش",
+        "Country Code":"BGD",
+        "Export Amount":956.6,
+        "Export Value":"مليون دولار",
+        "Color":"#9A17F3"
+    },
+    {
+        "Country Name":"أثيوبيا",
+        "Country Code":"ETH",
+        "Export Amount":1.1,
+        "Export Value":"مليار دولار",
+        "Color":"#53D4DE"
+    },
+    {
+        "Country Name":"ليبيا",
+        "Country Code":"LBY",
+        "Export Amount":8.4,
+        "Export Value":"مليار دولار",
+        "Color":"#4048FE"
+    },
+    {
+        "Country Name":"باكستان",
+        "Country Code":"PAK",
+        "Export Amount":1.8,
+        "Export Value":"مليار دولار",
+        "Color":"#A7E5C4"
+    },
+    {
+        "Country Name":"فيتنام",
+        "Country Code":"VNM",
+        "Export Amount":240.1,
+        "Export Value":"مليون دولار",
+        "Color":"#A6E187"
+    },
+    {
+        "Country Name":"ملاوي",
+        "Country Code":"MWI",
+        "Export Amount":48.0,
+        "Export Value":"مليون دولار",
+        "Color":"#B5FEA5"
+    },
+    {
+        "Country Name":"تشاد",
+        "Country Code":"TCD",
+        "Export Amount":64.4,
+        "Export Value":"مليون دولار",
+        "Color":"#13D84D"
+    },
+    {
+        "Country Name":"بولندا",
+        "Country Code":"POL",
+        "Export Amount":1.1,
+        "Export Value":"مليار دولار",
+        "Color":"#8022B3"
+    },
+    {
+        "Country Name":"السويد",
+        "Country Code":"SWE",
+        "Export Amount":329.5,
+        "Export Value":"مليون دولار",
+        "Color":"#4EBF6B"
+    },
+    {
+        "Country Name":"الإمارات العربية المتحدة",
+        "Country Code":"ARE",
+        "Export Amount":11.4,
+        "Export Value":"مليار دولار",
+        "Color":"#E2837C"
+    },
+    {
+        "Country Name":"كوريا الجنوبية",
+        "Country Code":"KOR",
+        "Export Amount":1.6,
+        "Export Value":"مليار دولار",
+        "Color":"#1E6386"
+    },
+    {
+        "Country Name":"بلغاريا",
+        "Country Code":"BGR",
+        "Export Amount":792.8,
+        "Export Value":"مليون دولار",
+        "Color":"#0FBB8B"
+    },
+    {
+        "Country Name":"السلفادور",
+        "Country Code":"SLV",
+        "Export Amount":7.6,
+        "Export Value":"مليون دولار",
+        "Color":"#5C592E"
+    },
+    {
+        "Country Name":"الجزائر",
+        "Country Code":"DZA",
+        "Export Amount":5.2,
+        "Export Value":"مليار دولار",
+        "Color":"#3F8E17"
+    },
+    {
+        "Country Name":"بوليفيا",
+        "Country Code":"BOL",
+        "Export Amount":6.3,
+        "Export Value":"مليون دولار",
+        "Color":"#53B0E0"
+    },
+    {
+        "Country Name":"الأرجنتين",
+        "Country Code":"ARG",
+        "Export Amount":738.4,
+        "Export Value":"مليون دولار",
+        "Color":"#8E4750"
+    },
+    {
+        "Country Name":"جمهورية افريقيا الوسطى",
+        "Country Code":"CAF",
+        "Export Amount":4.0,
+        "Export Value":"مليون دولار",
+        "Color":"#5C6D60"
+    },
+    {
+        "Country Name":"غانا",
+        "Country Code":"GHA",
+        "Export Amount":832.0,
+        "Export Value":"مليون دولار",
+        "Color":"#770B64"
+    },
+    {
+        "Country Name":"رومانيا",
+        "Country Code":"ROU",
+        "Export Amount":1.4,
+        "Export Value":"مليار دولار",
+        "Color":"#EFB88D"
+    },
+    {
+        "Country Name":"كوبا",
+        "Country Code":"CUB",
+        "Export Amount":37.5,
+        "Export Value":"مليون دولار",
+        "Color":"#218C85"
+    },
+    {
+        "Country Name":"البرتغال",
+        "Country Code":"PRT",
+        "Export Amount":1.0,
+        "Export Value":"مليار دولار",
+        "Color":"#26CA50"
+    },
+    {
+        "Country Name":"هايتي",
+        "Country Code":"HTI",
+        "Export Amount":32.1,
+        "Export Value":"مليون دولار",
+        "Color":"#F923E1"
+    },
+    {
+        "Country Name":"ساو تومي وبرينسيبي",
+        "Country Code":"STP",
+        "Export Amount":3.0,
+        "Export Value":"مليون دولار",
+        "Color":"#A36993"
+    },
+    {
+        "Country Name":"قطر",
+        "Country Code":"QAT",
+        "Export Amount":1.8,
+        "Export Value":"مليار دولار",
+        "Color":"#B21A55"
+    },
+    {
+        "Country Name":"سيشيل",
+        "Country Code":"SYC",
+        "Export Amount":35.9,
+        "Export Value":"مليون دولار",
+        "Color":"#8FFD4F"
+    },
+    {
+        "Country Name":"سيريلانكا",
+        "Country Code":"LKA",
+        "Export Amount":223.7,
+        "Export Value":"مليون دولار",
+        "Color":"#1A0A37"
+    },
+    {
+        "Country Name":"النيجر",
+        "Country Code":"NER",
+        "Export Amount":88.6,
+        "Export Value":"مليون دولار",
+        "Color":"#EC202D"
+    },
+    {
+        "Country Name":"فنلندا",
+        "Country Code":"FIN",
+        "Export Amount":211.3,
+        "Export Value":"مليون دولار",
+        "Color":"#2512D1"
+    },
+    {
+        "Country Name":"أيسلندا",
+        "Country Code":"ISL",
+        "Export Amount":12.1,
+        "Export Value":"مليون دولار",
+        "Color":"#7D596E"
+    },
+    {
+        "Country Name":"إيطاليا",
+        "Country Code":"ITA",
+        "Export Amount":15.5,
+        "Export Value":"مليار دولار",
+        "Color":"#FA8CD1"
+    },
+    {
+        "Country Name":"سلطنة عمان",
+        "Country Code":"OMN",
+        "Export Amount":1.5,
+        "Export Value":"مليار دولار",
+        "Color":"#2EA9BA"
+    },
+    {
+        "Country Name":"طاجيكستان",
+        "Country Code":"TJK",
+        "Export Amount":3.1,
+        "Export Value":"مليون دولار",
+        "Color":"#90A5C4"
+    },
+    {
+        "Country Name":"تايوان",
+        "Country Code":"TWN",
+        "Export Amount":451.2,
+        "Export Value":"مليون دولار",
+        "Color":"#1FAAA5"
+    },
+    {
+        "Country Name":"غينيا الإستوائية",
+        "Country Code":"GNQ",
+        "Export Amount":4.7,
+        "Export Value":"مليون دولار",
+        "Color":"#C36FD0"
+    },
+    {
+        "Country Name":"بابوا غينيا الجديدة",
+        "Country Code":"PNG",
+        "Export Amount":844.0,
+        "Export Value":"ألف دولار",
+        "Color":"#D0C29B"
+    },
+    {
+        "Country Name":"غامبيا",
+        "Country Code":"GMB",
+        "Export Amount":51.7,
+        "Export Value":"مليون دولار",
+        "Color":"#50A038"
+    },
+    {
+        "Country Name":"الدنمارك",
+        "Country Code":"DNK",
+        "Export Amount":164.1,
+        "Export Value":"مليون دولار",
+        "Color":"#F80DEB"
+    },
+    {
+        "Country Name":"مدغشقر",
+        "Country Code":"MDG",
+        "Export Amount":635.7,
+        "Export Value":"مليون دولار",
+        "Color":"#81945D"
+    },
+    {
+        "Country Name":"الهند",
+        "Country Code":"IND",
+        "Export Amount":7.6,
+        "Export Value":"مليار دولار",
+        "Color":"#E6CD3B"
+    },
+    {
+        "Country Name":"الفلبين",
+        "Country Code":"PHL",
+        "Export Amount":139.4,
+        "Export Value":"مليون دولار",
+        "Color":"#312C4E"
+    },
+    {
+        "Country Name":"سنغافورة",
+        "Country Code":"SGP",
+        "Export Amount":1.0,
+        "Export Value":"مليار دولار",
+        "Color":"#3C4C5C"
+    },
+    {
+        "Country Name":"مقدونيا",
+        "Country Code":"MKD",
+        "Export Amount":6.8,
+        "Export Value":"مليون دولار",
+        "Color":"#EEBC8D"
+    },
+    {
+        "Country Name":"كمبوديا",
+        "Country Code":"KHM",
+        "Export Amount":6.8,
+        "Export Value":"مليون دولار",
+        "Color":"#09213A"
+    },
+    {
+        "Country Name":"كوت ديفوار",
+        "Country Code":"CIV",
+        "Export Amount":549.3,
+        "Export Value":"مليون دولار",
+        "Color":"#2061C7"
+    },
+    {
+        "Country Name":"ألمانيا",
+        "Country Code":"DEU",
+        "Export Amount":6.5,
+        "Export Value":"مليار دولار",
+        "Color":"#C74031"
+    },
+    {
+        "Country Name":"اليابان",
+        "Country Code":"JPN",
+        "Export Amount":1.1,
+        "Export Value":"مليار دولار",
+        "Color":"#2F4655"
+    },
+    {
+        "Country Name":"مالي",
+        "Country Code":"MLI",
+        "Export Amount":110.9,
+        "Export Value":"مليون دولار",
+        "Color":"#D8774B"
+    },
+    {
+        "Country Name":"إيران",
+        "Country Code":"IRN",
+        "Export Amount":176.6,
+        "Export Value":"مليون دولار",
+        "Color":"#839F3A"
+    },
+    {
+        "Country Name":"أوروغواي",
+        "Country Code":"URY",
+        "Export Amount":167.2,
+        "Export Value":"مليون دولار",
+        "Color":"#FEAE44"
+    },
+    {
+        "Country Name":"سلوفينيا",
+        "Country Code":"SVN",
+        "Export Amount":938.0,
+        "Export Value":"مليون دولار",
+        "Color":"#C46DB6"
+    },
+    {
+        "Country Name":"تايلاند",
+        "Country Code":"THA",
+        "Export Amount":542.3,
+        "Export Value":"مليون دولار",
+        "Color":"#140B9C"
+    },
+    {
+        "Country Name":"المغرب",
+        "Country Code":"MAR",
+        "Export Amount":4.7,
+        "Export Value":"مليار دولار",
+        "Color":"#E68109"
+    },
+    {
+        "Country Name":"روسيا",
+        "Country Code":"RUS",
+        "Export Amount":3.7,
+        "Export Value":"مليار دولار",
+        "Color":"#DFA3E5"
+    },
+    {
+        "Country Name":"مالطا",
+        "Country Code":"MLT",
+        "Export Amount":4.1,
+        "Export Value":"مليار دولار",
+        "Color":"#DCCA94"
+    },
+    {
+        "Country Name":"سلوفاكيا",
+        "Country Code":"SVK",
+        "Export Amount":1.2,
+        "Export Value":"مليار دولار",
+        "Color":"#A5E432"
+    },
+    {
+        "Country Name":"كندا",
+        "Country Code":"CAN",
+        "Export Amount":4.5,
+        "Export Value":"مليار دولار",
+        "Color":"#B83F8B"
+    },
+    {
+        "Country Name":"كولومبيا",
+        "Country Code":"COL",
+        "Export Amount":103.2,
+        "Export Value":"مليون دولار",
+        "Color":"#7A16B0"
+    },
+    {
+        "Country Name":"أنتيغوا وبربودا",
+        "Country Code":"ATG",
+        "Export Amount":212.3,
+        "Export Value":"ألف دولار",
+        "Color":"#0B0C5A"
+    },
+    {
+        "Country Name":"توغو",
+        "Country Code":"TGO",
+        "Export Amount":190.3,
+        "Export Value":"مليون دولار",
+        "Color":"#4A9851"
+    },
+    {
+        "Country Name":"هولندا",
+        "Country Code":"NLD",
+        "Export Amount":4.3,
+        "Export Value":"مليار دولار",
+        "Color":"#6D840D"
+    },
+    {
+        "Country Name":"الأردن",
+        "Country Code":"JOR",
+        "Export Amount":5.9,
+        "Export Value":"مليار دولار",
+        "Color":"#D6DDFD"
+    },
+    {
+        "Country Name":"مارتينيك",
+        "Country Code":"MTQ",
+        "Export Amount":1.0,
+        "Export Value":"مليون دولار",
+        "Color":"#57C83A"
+    },
+    {
+        "Country Name":"أيرلندا",
+        "Country Code":"IRL",
+        "Export Amount":1.7,
+        "Export Value":"مليار دولار",
+        "Color":"#1846F9"
+    },
+    {
+        "Country Name":"تركيا",
+        "Country Code":"TUR",
+        "Export Amount":18.2,
+        "Export Value":"مليار دولار",
+        "Color":"#853E42"
+    },
+    {
+        "Country Name":"أوغندا",
+        "Country Code":"UGA",
+        "Export Amount":632.2,
+        "Export Value":"مليون دولار",
+        "Color":"#6D85F2"
+    },
+    {
+        "Country Name":"جمهورية الدومنيكان",
+        "Country Code":"DOM",
+        "Export Amount":77.1,
+        "Export Value":"مليون دولار",
+        "Color":"#BEBFE5"
+    },
+    {
+        "Country Name":"السودان",
+        "Country Code":"SDN",
+        "Export Amount":5.4,
+        "Export Value":"مليار دولار",
+        "Color":"#186E78"
+    },
+    {
+        "Country Name":"ماليزيا",
+        "Country Code":"MYS",
+        "Export Amount":867.5,
+        "Export Value":"مليون دولار",
+        "Color":"#7D02C3"
+    },
+    {
+        "Country Name":"إسرائيل",
+        "Country Code":"ISR",
+        "Export Amount":689.6,
+        "Export Value":"مليون دولار",
+        "Color":"#C2523F"
+    },
+    {
+        "Country Name":"العراق",
+        "Country Code":"IRQ",
+        "Export Amount":5.4,
+        "Export Value":"مليار دولار",
+        "Color":"#CA720D"
+    },
+    {
+        "Country Name":"غواتيمالا",
+        "Country Code":"GTM",
+        "Export Amount":85.5,
+        "Export Value":"مليون دولار",
+        "Color":"#52324B"
+    },
+    {
+        "Country Name":"تونس",
+        "Country Code":"TUN",
+        "Export Amount":2.6,
+        "Export Value":"مليار دولار",
+        "Color":"#F81E59"
+    },
+    {
+        "Country Name":"أذربيجان",
+        "Country Code":"AZE",
+        "Export Amount":29.3,
+        "Export Value":"مليون دولار",
+        "Color":"#9E46A7"
+    },
+    {
+        "Country Name":"ليسوتو",
+        "Country Code":"LSO",
+        "Export Amount":41.6,
+        "Export Value":"ألف دولار",
+        "Color":"#80FC0A"
+    },
+    {
+        "Country Name":"استونيا",
+        "Country Code":"EST",
+        "Export Amount":44.6,
+        "Export Value":"مليون دولار",
+        "Color":"#B44700"
+    },
+    {
+        "Country Name":"تشيلي",
+        "Country Code":"CHL",
+        "Export Amount":97.2,
+        "Export Value":"مليون دولار",
+        "Color":"#FD50E4"
+    },
+    {
+        "Country Name":"بنين",
+        "Country Code":"BEN",
+        "Export Amount":103.4,
+        "Export Value":"مليون دولار",
+        "Color":"#F2488F"
+    },
+    {
+        "Country Name":"تركمانستان",
+        "Country Code":"TKM",
+        "Export Amount":5.8,
+        "Export Value":"مليون دولار",
+        "Color":"#DA2340"
+    },
+    {
+        "Country Name":"جامايكا",
+        "Country Code":"JAM",
+        "Export Amount":8.6,
+        "Export Value":"مليون دولار",
+        "Color":"#63A3CF"
+    },
+    {
+        "Country Name":"إريتريا",
+        "Country Code":"ERI",
+        "Export Amount":224.3,
+        "Export Value":"مليون دولار",
+        "Color":"#B4B50B"
+    },
+    {
+        "Country Name":"بوروندي",
+        "Country Code":"BDI",
+        "Export Amount":104.4,
+        "Export Value":"مليون دولار",
+        "Color":"#5FD8B4"
+    },
+    {
+        "Country Name":"الولايات المتحدة",
+        "Country Code":"USA",
+        "Export Amount":16.4,
+        "Export Value":"مليار دولار",
+        "Color":"#D8560E"
+    },
+    {
+        "Country Name":"نيجيريا",
+        "Country Code":"NGA",
+        "Export Amount":1.1,
+        "Export Value":"مليار دولار",
+        "Color":"#75D8FA"
+    },
+    {
+        "Country Name":"هونغ كونغ",
+        "Country Code":"HKG",
+        "Export Amount":347.6,
+        "Export Value":"مليون دولار",
+        "Color":"#59F1DC"
+    },
+    {
+        "Country Name":"كرواتيا",
+        "Country Code":"HRV",
+        "Export Amount":252.5,
+        "Export Value":"مليون دولار",
+        "Color":"#6FEF60"
+    },
+    {
+        "Country Name":"جزر القمر",
+        "Country Code":"COM",
+        "Export Amount":11.4,
+        "Export Value":"مليون دولار",
+        "Color":"#A52707"
+    },
+    {
+        "Country Name":"السنغال",
+        "Country Code":"SEN",
+        "Export Amount":466.2,
+        "Export Value":"مليون دولار",
+        "Color":"#31F0F8"
+    },
+    {
+        "Country Name":"جمهورية التشيك",
+        "Country Code":"CZE",
+        "Export Amount":382.0,
+        "Export Value":"مليون دولار",
+        "Color":"#D5A43C"
+    },
+    {
+        "Country Name":"لا ريونيون",
+        "Country Code":"REU",
+        "Export Amount":34.3,
+        "Export Value":"مليون دولار",
+        "Color":"#F0BDAA"
+    },
+    {
+        "Country Name":"موريتانيا",
+        "Country Code":"MRT",
+        "Export Amount":200.0,
+        "Export Value":"مليون دولار",
+        "Color":"#F58A4E"
+    },
+    {
+        "Country Name":"أوزبكستان",
+        "Country Code":"UZB",
+        "Export Amount":9.1,
+        "Export Value":"مليون دولار",
+        "Color":"#ACA799"
+    },
+    {
+        "Country Name":"غينيا بيساو",
+        "Country Code":"GNB",
+        "Export Amount":724.9,
+        "Export Value":"ألف دولار",
+        "Color":"#6E1CC4"
+    },
+    {
+        "Country Name":"نيبال",
+        "Country Code":"NPL",
+        "Export Amount":100.7,
+        "Export Value":"مليون دولار",
+        "Color":"#5AD589"
+    },
+    {
+        "Country Name":"قبرص",
+        "Country Code":"CYP",
+        "Export Amount":813.8,
+        "Export Value":"مليون دولار",
+        "Color":"#FCF5AD"
+    },
+    {
+        "Country Name":"الصين",
+        "Country Code":"CHN",
+        "Export Amount":4.9,
+        "Export Value":"مليار دولار",
+        "Color":"#6AF3F6"
+    },
+    {
+        "Country Name":"الإكوادور",
+        "Country Code":"ECU",
+        "Export Amount":43.9,
+        "Export Value":"مليون دولار",
+        "Color":"#5322EB"
+    },
+    {
+        "Country Name":"سويسرا",
+        "Country Code":"CHE",
+        "Export Amount":1.7,
+        "Export Value":"مليار دولار",
+        "Color":"#4417D4"
+    },
+    {
+        "Country Name":"السعودية",
+        "Country Code":"SAU",
+        "Export Amount":18.9,
+        "Export Value":"مليار دولار",
+        "Color":"#8ACB52"
+    },
+    {
+        "Country Name":"أوكرانيا",
+        "Country Code":"UKR",
+        "Export Amount":565.7,
+        "Export Value":"مليون دولار",
+        "Color":"#C25D70"
+    },
+    {
+        "Country Name":"جنوب أفريقيا",
+        "Country Code":"ZAF",
+        "Export Amount":1.8,
+        "Export Value":"مليار دولار",
+        "Color":"#8800AE"
+    },
+    {
+        "Country Name":"غوادلوب",
+        "Country Code":"GLP",
+        "Export Amount":2.5,
+        "Export Value":"مليون دولار",
+        "Color":"#6CE431"
+    },
+    {
+        "Country Name":"هندوراس",
+        "Country Code":"HND",
+        "Export Amount":9.4,
+        "Export Value":"مليون دولار",
+        "Color":"#B6B28F"
+    },
+    {
+        "Country Name":"بيرو",
+        "Country Code":"PER",
+        "Export Amount":71.8,
+        "Export Value":"مليون دولار",
+        "Color":"#1C064E"
+    },
+    {
+        "Country Name":"البحرين",
+        "Country Code":"BHR",
+        "Export Amount":927.6,
+        "Export Value":"مليون دولار",
+        "Color":"#398732"
+    },
+    {
+        "Country Name":"كينيا",
+        "Country Code":"KEN",
+        "Export Amount":3.0,
+        "Export Value":"مليار دولار",
+        "Color":"#A45139"
+    },
+    {
+        "Country Name":"ترينداد وتوباغو",
+        "Country Code":"TTO",
+        "Export Amount":13.0,
+        "Export Value":"مليون دولار",
+        "Color":"#4876D4"
+    },
+    {
+        "Country Name":"جزر المالديف",
+        "Country Code":"MDV",
+        "Export Amount":34.6,
+        "Export Value":"مليون دولار",
+        "Color":"#2E7456"
+    },
+    {
+        "Country Name":"سيرا ليون",
+        "Country Code":"SLE",
+        "Export Amount":42.5,
+        "Export Value":"مليون دولار",
+        "Color":"#EA4AAB"
+    },
+    {
+        "Country Name":"أندونيسيا",
+        "Country Code":"IDN",
+        "Export Amount":1.0,
+        "Export Value":"مليار دولار",
+        "Color":"#E92190"
+    },
+    {
+        "Country Name":"فرنسا",
+        "Country Code":"FRA",
+        "Export Amount":6.9,
+        "Export Value":"مليار دولار",
+        "Color":"#D675FB"
+    },
+    {
+        "Country Name":"بلجيكا",
+        "Country Code":"BEL",
+        "Export Amount":3.4,
+        "Export Value":"مليار دولار",
+        "Color":"#C1B328"
+    },
+    {
+        "Country Name":"موريشيوس",
+        "Country Code":"MUS",
+        "Export Amount":290.4,
+        "Export Value":"مليون دولار",
+        "Color":"#9470C4"
+    },
+    {
+        "Country Name":"الصومال",
+        "Country Code":"SOM",
+        "Export Amount":579.6,
+        "Export Value":"مليون دولار",
+        "Color":"#314E42"
+    },
+    {
+        "Country Name":"ليتوانيا",
+        "Country Code":"LTU",
+        "Export Amount":178.6,
+        "Export Value":"مليون دولار",
+        "Color":"#925B62"
+    },
+    {
+        "Country Name":"زيمبابوي",
+        "Country Code":"ZWE",
+        "Export Amount":148.5,
+        "Export Value":"مليون دولار",
+        "Color":"#053265"
+    },
+    {
+        "Country Name":"جورجيا",
+        "Country Code":"GEO",
+        "Export Amount":189.5,
+        "Export Value":"مليون دولار",
+        "Color":"#CE31C3"
+    },
+    {
+        "Country Name":"بنما",
+        "Country Code":"PAN",
+        "Export Amount":72.6,
+        "Export Value":"مليون دولار",
+        "Color":"#2E9764"
+    },
+    {
+        "Country Name":"سوازيلاند",
+        "Country Code":"SWZ",
+        "Export Amount":38.2,
+        "Export Value":"مليون دولار",
+        "Color":"#9742EA"
+    },
+    {
+        "Country Name":"الكويت",
+        "Country Code":"KWT",
+        "Export Amount":3.1,
+        "Export Value":"مليار دولار",
+        "Color":"#8B6CDC"
+    },
+    {
+        "Country Name":"زامبيا",
+        "Country Code":"ZMB",
+        "Export Amount":181.6,
+        "Export Value":"مليون دولار",
+        "Color":"#BC5DFC"
+    },
+    {
+        "Country Name":"النمسا",
+        "Country Code":"AUT",
+        "Export Amount":151.8,
+        "Export Value":"مليون دولار",
+        "Color":"#1D18E7"
+    },
+    {
+        "Country Name":"لاتفيا",
+        "Country Code":"LVA",
+        "Export Amount":69.9,
+        "Export Value":"مليون دولار",
+        "Color":"#102A1C"
+    },
+    {
+        "Country Name":"كازاخستان",
+        "Country Code":"KAZ",
+        "Export Amount":353.7,
+        "Export Value":"مليون دولار",
+        "Color":"#44E447"
+    },
+    {
+        "Country Name":"المملكة المتحدة",
+        "Country Code":"GBR",
+        "Export Amount":8.4,
+        "Export Value":"مليار دولار",
+        "Color":"#5F820A"
+    },
+    {
+        "Country Name":"رواندا",
+        "Country Code":"RWA",
+        "Export Amount":253.0,
+        "Export Value":"مليون دولار",
+        "Color":"#A9CD01"
+    },
+    {
+        "Country Name":"ألبانيا",
+        "Country Code":"ALB",
+        "Export Amount":119.2,
+        "Export Value":"مليون دولار",
+        "Color":"#15785E"
+    },
+    {
+        "Country Name":"تنزانيا",
+        "Country Code":"TZA",
+        "Export Amount":355.8,
+        "Export Value":"مليون دولار",
+        "Color":"#B4B6D9"
+    },
+    {
+        "Country Name":"جمهورية الكونغو الديموقراطية",
+        "Country Code":"COD",
+        "Export Amount":159.1,
+        "Export Value":"مليون دولار",
+        "Color":"#1D7D5A"
+    },
+    {
+        "Country Name":"ليبيريا",
+        "Country Code":"LBR",
+        "Export Amount":101.8,
+        "Export Value":"مليون دولار",
+        "Color":"#7C6ED8"
+    },
+    {
+        "Country Name":"بورتوريكو",
+        "Country Code":"PRI",
+        "Export Amount":11.5,
+        "Export Value":"مليون دولار",
+        "Color":"#C30F75"
+    },
+    {
+        "Country Name":"الكونغو",
+        "Country Code":"COG",
+        "Export Amount":209.3,
+        "Export Value":"مليون دولار",
+        "Color":"#AB27AD"
+    },
+    {
+        "Country Name":"لوكسمبورغ",
+        "Country Code":"LUX",
+        "Export Amount":11.6,
+        "Export Value":"مليون دولار",
+        "Color":"#82318A"
+    },
+    {
+        "Country Name":"فلسطين",
+        "Country Code":"PSE",
+        "Export Amount":1.5,
+        "Export Value":"مليار دولار",
+        "Color":"#40ECC7"
+    },
+    {
+        "Country Name":"النرويج",
+        "Country Code":"NOR",
+        "Export Amount":129.7,
+        "Export Value":"مليون دولار",
+        "Color":"#C1DE65"
+    },
+    {
+        "Country Name":"أنغولا",
+        "Country Code":"AGO",
+        "Export Amount":235.7,
+        "Export Value":"مليون دولار",
+        "Color":"#343DFB"
+    },
+    {
+        "Country Name":"الرأس الأخضر",
+        "Country Code":"CPV",
+        "Export Amount":15.2,
+        "Export Value":"مليون دولار",
+        "Color":"#677AEA"
+    },
+    {
+        "Country Name":"سانت لوسيا",
+        "Country Code":"LCA",
+        "Export Amount":64.9,
+        "Export Value":"ألف دولار",
+        "Color":"#2EF6AC"
+    },
+    {
+        "Country Name":"غينيا",
+        "Country Code":"GIN",
+        "Export Amount":132.7,
+        "Export Value":"مليون دولار",
+        "Color":"#978EEB"
+    },
+    {
+        "Country Name":"بوتسوانا",
+        "Country Code":"BWA",
+        "Export Amount":1.3,
+        "Export Value":"مليون دولار",
+        "Color":"#43E919"
+    }
+]
