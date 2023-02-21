@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 import utils
 import numpy as np
+import time
 
 st.set_page_config(
     page_title="صادرات مصر",
@@ -16,11 +17,15 @@ st.set_page_config(
 # Read data
 dataset_path = Path(__file__).parent / "dataset"
 df_metadata = pd.read_json(dataset_path / "metadata.json", orient="records")
+df_metadata = utils.normalize_money(df_metadata, "Export Amount", "Export Value")
+if 'start_time' not in st.session_state:
+    st.session_state['start_time'] = time.time()
 
 # Zip dataset folder
 zip_path = Path(__file__).parent / "exports_dataset.zip"
 utils.zip_directory(dataset_path, zip_path)
 
+# Global style for the app
 global_style = """
 			<style>
             @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Tajawal:wght@700&display=swap');
@@ -40,18 +45,18 @@ global_style = """
             th {
             text-align: center;
             font-family: 'Tajawal';
-            color: black;
+            color: black; 
             }
             p {
             text-align: center;
             }
 			</style>
 			"""
+st.markdown(global_style, unsafe_allow_html=True)
 
+# Some useful templates
 country_name_template = "<p style='color: {country_color};text-align: center;'>{country_name} ({country_code})</p>"
 beautiful_shape = "<br> . <br> ……… <br> ……………… <br> ……………………… <br> …………………………… <br> ……………………… <br> ……………… <br> ……… <br> ."
-
-st.markdown(global_style, unsafe_allow_html=True)
 
 # Add sidebar to streamlit and use it to customize the experience
 st.sidebar.markdown("<h1><b class='sidebar'>Customi</b>ze <b class='sidebar'>you</b>r <b class='sidebar'>Experien</b>ce</h1>", unsafe_allow_html=True)
@@ -67,12 +72,14 @@ st.sidebar.markdown("<h3> ⭐ <b class='sidebar'>Chapt</b>er 3 <b class='sidebar
 # chapter3_num_columns = st.sidebar.select_slider("Number of side-by-side dataframes", options=[1,2,3], value=1)
 chapter3_num_columns = 1
 top_n_items = st.sidebar.select_slider("Show only top N items", options=list(range(1,21))+["All"], value=10)
-enable_surprise = st.sidebar.checkbox("✨ Unlock Surprise", value=False, help="Enable this to see a surprise at the end of the story")
 
+# Make a hidden present pop after 5 minutes
+if time.time() - st.session_state['start_time'] > 60*5:
+    enable_surprise = st.sidebar.checkbox("🎁 Unlock Present", value=False, help="Congrats, You can click to view a hidden chapter")
+else:
+    enable_surprise = st.sidebar.checkbox("🎁 Unlock Present", value=False, help="I can crawl, I can fly, I have hands but no legs or wings either. What am I?", disabled=True)
 
-# Load metadata
-df_metadata = utils.normalize_money(df_metadata, "Export Amount", "Export Value")
-
+# Add title to the app
 st.markdown("<h1 style='text-align:center;'>This will be a fun story about Egypt's exports 🤭</h1> <br>", unsafe_allow_html=True)
 
 # Chapter 1: The Story of the largest countries we export to
@@ -178,44 +185,34 @@ with st.expander("Chapter 3: What items we export ?", expanded=False):
 
         chapter3_columns[idx % chapter3_num_columns].markdown(country_name_template.format(country_name=country_name, country_code=country_code, country_color=country_color), unsafe_allow_html=True)
         chapter3_columns[idx % chapter3_num_columns].markdown(filtered_items_df.to_html(index=False) + "<br>", unsafe_allow_html=True)
-        # chapter3_columns[idx % chapter3_num_columns].markdown("")
-
-        # chapter3_columns[idx % chapter3_num_columns].table(items_df)
-        # chapter3_columns[idx % chapter3_num_columns].dataframe(items_df, use_container_width=True)
-        # chapter3_columns[idx % chapter3_num_columns].markdown(items_df[:10].to_html(index=False, justify="center").replace("<table", "<table style='direction:rtl; text-align:center; width:100%;'"), unsafe_allow_html=True)
-        # chapter3_columns[idx % chapter3_num_columns].write("")
-
-    # total_df.reset_index(drop=True, inplace=True)
-    # total_df.drop(columns=["Value"], inplace=True)
-    
-    # # st.write(total_df)
-    # st.dataframe(total_df.sort_values(by="Amount", ascending=False).reset_index(drop=True), use_container_width=True)
-    # st.dataframe(total_df["Item"].value_counts())
-    # # Sum the cell in `Amount` column based on the grouping of rows with the same `Item` value
-    # st.dataframe(total_df[["Item", "Amount"]].groupby("Item").sum(numeric_only=False).sort_values(by="Amount", ascending=False).reset_index(), use_container_width=True)
-
-# st.markdown("---")
-# st.markdown("<h3 style='text-align:center;'> Download the dataset from here</h3> <br>", unsafe_allow_html=True)
-# st.markdown("<h3 style='direction: rtl; text-align:center;'>📦 تحميل البيانات</h3> <br>", unsafe_allow_html=True)
-
-# st.markdown("<h1 style='text-align:center;'>This will be a fun story about Egypt's exports 🤭</h1> <br>", unsafe_allow_html=True)
+        
 with st.expander("Chapter 4: What do you think ?", expanded=False):
     st.markdown("<p>💝 أتمنى هذه الأداة المتواضعة تساعد شخص ما على إتخاذ قرار جيد بخصوص مشروعه القادم</p>", unsafe_allow_html=True)
-    st.markdown(f"<p>🤔 وأخيرا وليس أخرا … ما هى الصناعة التى يمكن ان تغير واقع التصدير فى مصر من وجهة نظرك ؟ {beautiful_shape}</p>", unsafe_allow_html=True)
+    st.markdown(f"<p>💩 أخيرا وليس أخرا … إذا وجدت الموقع مفيد يمكنك دعمه عن طريق <a href='https://www.youtube.com/watch?v=m7KFeyJigAc'> النجاح فى الحياة </a></p>", unsafe_allow_html=True)
+    st.markdown(f"<p>🕵️ أو التبرع لمؤسسة <a href='https://mersal-ngo.org/'>مرسال</a> {beautiful_shape}</p>", unsafe_allow_html=True)
 
-    # Download dataset zip file
-    with open(zip_path, "rb") as fp:
-        st.columns(3)[1].download_button(
-        # st.sidebar.download_button(
-            label="يمكنك تحميل البيانات التى أستخدمتها من هنا",
-            data=fp,
-            file_name="dataset.zip",
-            mime="application/zip",
-            use_container_width=True,
-        )
+    if enable_surprise:
+        # Download dataset zip file
+        with open(zip_path, "rb") as fp:
+            st.columns(3)[1].download_button(
+            # st.sidebar.download_button(
+                label="📦 تحميل البيانات",
+                data=fp,
+                file_name="dataset.zip",
+                mime="application/zip",
+                use_container_width=True,
+            )
 
     st.balloons()
 
 if enable_surprise:
     st.snow()
-    st.audio(str(Path(__file__).parent / "assets"  / "surprise.webm"), format="audio/webm")
+    with st.expander("Chapter 5: Helpful Material", expanded=False):
+        st.markdown("<h3 style='direction: rtl; text-align:center;'> مصادر أقتصادية مفيدة 📚</h3> <br>", unsafe_allow_html=True)
+        st.write('- [When Client Says "Your Price Is Too High"– How To Respond](https://www.youtube.com/watch?v=RFk8ZmIDrFM) ')
+        st.write('- [Feel the Pain](https://www.youtube.com/watch?v=uWX2g0QplSg)')
+        st.write('- [How & When To Raise Your Rates (The 3x Rule)](https://www.youtube.com/watch?v=Dr4Ux8_mfU8)')
+        st.write('- [MBA in one day Book](https://www.kutubpdfbook.com/book/%D9%85%D8%A7%D8%AC%D8%B3%D8%AA%D9%8A%D8%B1-%D8%A3%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A7%D8%B9%D9%85%D8%A7%D9%84-%D9%81%D9%8A-%D9%8A%D9%88%D9%85-%D9%88%D8%A7%D8%AD%D8%AF)')
+        st.write('- [Why Customers Buy (Marketing Fundamentals)](https://www.youtube.com/watch?v=TVqXHVCmfHE)')
+        st.markdown("<br> <span style='text-align: right;'> هذا ملف صوتى غير مهم (لا تضيع وقتك فى سماعه)</span> <br>", unsafe_allow_html=True)
+        st.audio(str(Path(__file__).parent / "assets"  / "surprise.webm"), format="audio/webm")
