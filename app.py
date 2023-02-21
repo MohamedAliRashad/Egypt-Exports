@@ -189,7 +189,7 @@ with st.expander("Chapter 3: What items we export ?", expanded=False):
 with st.expander("Chapter 4: What do you think ?", expanded=False):
     st.markdown("<p>💝 أتمنى هذه الأداة المتواضعة تساعد شخص ما على إتخاذ قرار جيد بخصوص مشروعه القادم</p>", unsafe_allow_html=True)
     st.markdown(f"<p>💩 أخيرا وليس أخرا … إذا وجدت الموقع مفيد يمكنك دعمه عن طريق <a href='https://www.youtube.com/watch?v=m7KFeyJigAc'> النجاح فى الحياة </a></p>", unsafe_allow_html=True)
-    st.markdown(f"<p>🕵️ أو التبرع لمؤسسة <a href='https://mersal-ngo.org/'>مرسال</a> {beautiful_shape}</p>", unsafe_allow_html=True)
+    st.markdown(f"<p>🕵️ أو التبرع لمؤسسة <a href='https://mersal-ngo.org/'>مرسال</a> أو مساعدة <a href='https://www.facebook.com/profile.php?id=100090486334314'>طلبة هندسة عين شمس</a> {beautiful_shape}</p>", unsafe_allow_html=True)
 
     if enable_surprise:
         # Download dataset zip file
