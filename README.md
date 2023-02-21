@@ -1,7 +1,7 @@
-# Egypt-Exports 
-Statistical Analysis for the exports of Egypt on the last 10 years 
+# Egypt-Exports 💰
+Statistical Analysis for the exports of Egypt on the last 10 years 📉
 
-## How to use ?
+## 💡 How to use ?
 1. Clone the repository
     ```bash
     git clone https://github.com/MohamedAliRashad/Egypt-Exports.git
