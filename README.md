@@ -20,6 +20,7 @@ Statistical Analysis for the exports of Egypt on the last 10 years 📉
 
 ## 📰 News
 **22 Feb 2023** Add support for the monthly data in Chapter 2
+
 **21 Feb 2023** The app is live and hosted on [streamlit cloud](https://mohamedalirashad-egypt-exports-app-jcvici.streamlit.app/)
 
 ## ✨ Special Thanks to [EDA](http://www.expoegypt.gov.eg/map) for the Data ✨
