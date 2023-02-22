@@ -65,6 +65,11 @@ show_legend = st.sidebar.checkbox("Show Legend", value=True)
 top_k_countries = st.sidebar.slider("Top Exporting Countries to Show", min_value=1, max_value=len(df_metadata), value=int(0.25*len(df_metadata)))
 st.sidebar.markdown("""---""")
 st.sidebar.markdown("<h3> ⭐ <b class='sidebar'>Chapt</b>er 2 <b class='sidebar'>Configurati</b>ons</h3>", unsafe_allow_html=True)
+yearly_or_monthly = st.sidebar.radio("Show Yearly or Monthly Data", ["Yearly", "Monthly"], index=0)
+if yearly_or_monthly == "Monthly":
+    enable_aggregate = st.sidebar.checkbox("Aggregate Months", value=False, help="Aggregate months to show yearly data")
+else:
+    enable_aggregate = st.sidebar.checkbox("Aggregate Months", value=False, help="Aggregate months to show yearly data", disabled=True)
 diagram_option = st.sidebar.selectbox("Select Type of Diagram to show", ["Bar Chart", "Line Chart"], index=1)
 chapter2_num_columns = st.sidebar.slider("Number of side-by-side graphs", min_value=1, max_value=4, value=2)
 st.sidebar.markdown("""---""")
@@ -118,19 +123,34 @@ with st.expander("Chapter 2: What happened in the last 10 years ?", expanded=Fal
 
     columns = st.columns(chapter2_num_columns)
     for idx, country_selected_name in enumerate(countries_selected):
+        # Read metadata
         country_selected_code = df_metadata.loc[df_metadata["Country Name"] == country_selected_name, "Country Code"].values[0]
         country_path = dataset_path / country_selected_code
         country_color = df_metadata.loc[df_metadata["Country Name"] == country_selected_name, "Color"].values[0]
-        # monthly_df = pd.read_csv(country_path / "monthly.csv", index_col=False)
-        # monthly_df["Export Amount"] = monthly_df["Export Amount"].apply(lambda x: utils.str_money2int(x))
         
+        # Read yearly data
         yearly_df = pd.read_csv(country_path / "yearly.csv", index_col=False)
         yearly_df = utils.normalize_money(yearly_df, "Export Amount", "Export Value")
 
+        # Read monthly data
+        monthly_df = pd.read_csv(country_path / "monthly.csv", index_col=False)
+        monthly_df["Export Amount"] = monthly_df["Export Amount"].apply(lambda x: utils.str_money2int(x) / 1e6)
+        if not enable_aggregate:
+            monthly_df["Year"] = monthly_df.apply(lambda x: f'{x["Year"]} - {x["Month"]}', axis=1)
+
+        # Select dataframe
+        if yearly_or_monthly == "Yearly":
+            selected_df = yearly_df
+        else:
+            selected_df = monthly_df
+
+        # Show country name
         columns[idx % chapter2_num_columns].markdown(country_name_template.format(country_name=country_selected_name, country_code=country_selected_code, country_color=country_color), unsafe_allow_html=True)
+        
+        # Show diagram options
         if diagram_option == "Bar Chart":
             columns[idx % chapter2_num_columns].vega_lite_chart(
-                yearly_df,
+                selected_df,
                 {
                     "mark": {"type": "bar", "cornerRadiusEnd": 8, "color": df_metadata.iloc[idx]["Color"]},
                     "encoding": {
@@ -145,12 +165,14 @@ with st.expander("Chapter 2: What happened in the last 10 years ?", expanded=Fal
                 use_container_width=True,
             )
         elif diagram_option == "Line Chart":
+            if enable_aggregate:
+                selected_df = selected_df.groupby("Year").sum().reset_index()
             columns[idx % chapter2_num_columns].vega_lite_chart(
-                yearly_df,
+                selected_df,
                 {
                     "mark": {"type": "line", "point": True, "color": df_metadata.iloc[idx]["Color"]},
                     "encoding": {
-                        "x": {"field": "Year", "type": "ordinal", "title": "Year", "axis": {"labelAngle": 0}},
+                        "x": {"field": "Year", "type": "ordinal", "title": "Year", "axis": {"labelAngle": -65}},
                         "y": {
                             "field": "Export Amount",
                             "type": "quantitative",
