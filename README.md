@@ -19,6 +19,8 @@ Statistical Analysis for the exports of Egypt on the last 10 years 📉
 **Enjoy the app on the ip address that will pop up in the terminal** 🤠
 
 ## 📰 News
+**25 Feb 2023** Fix  the sorting bug in monthly points
+
 **22 Feb 2023** Add support for the monthly data in Chapter 2
 
 **21 Feb 2023** The app is live and hosted on [streamlit cloud](https://mohamedalirashad-egypt-exports-app-jcvici.streamlit.app/)
